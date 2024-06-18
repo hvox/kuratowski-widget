@@ -1,8 +1,7 @@
-[gd_scene load_steps=13 format=3 uid="uid://et3f1e8000o1"]
+[gd_scene load_steps=12 format=3 uid="uid://et3f1e8000o1"]
 
 [ext_resource type="Script" path="res://Main.gd" id="1_xbpv1"]
 [ext_resource type="Texture2D" uid="uid://dal3xhmrak1hl" path="res://graph.png" id="3_2kgk3"]
-[ext_resource type="Script" path="res://Sprite.gd" id="3_f2q73"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p78ds"]
 atlas = ExtResource("3_2kgk3")
@@ -74,4 +73,4 @@ script = ExtResource("1_xbpv1")
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 position = Vector2(64, 64)
 sprite_frames = SubResource("SpriteFrames_e1nls")
-script = ExtResource("3_f2q73")
+autoplay = "default"
